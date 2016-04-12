@@ -29,10 +29,25 @@ The result can be in one of these formats:
 - RDF/JSON-LD
 
 ## Habitat zone verification
-A group of scientists and policymakers used our data to help make their decision to designate some area as a Marine Conservation Zone. In their report, they want to provide a URI to the relevant extract of our data.
+A group of scientists and policymakers used our data to help make their decision to designate some area as a Marine Conservation Zone. In their report, they want to provide a URI to the relevant extract of our data
+
 The relevant extract is defined by several types of data.
+
 For some types, it consists of all data in that set within some temporal and spatial range.
+
 For some types, it consists of all data in that set within some polygon and some temporal range
+
 Thus, a URI exists (or can be created) which unambiguously identifies this subset
 
 (see https://www.w3.org/TR/sdw-ucr/#HabitatZoneVerification)
+
+## Building tax rates
+The dataset consists of a bunch of polygons (domain) with attached tax rates (range). The user wants to display on a map all houses with a certain tax rate.
+
+The query contains a range of tax rates.
+
+The output is all the (polygon, rate) pairs whose rates fall within this range
+
+(see http://almere.pilod.nl/bgtld/v2/)
+
+
