@@ -76,4 +76,15 @@ We have some data measured in 3-dimensions about water. The user wants to know w
 
 (see https://www.w3.org/TR/sdw-ucr/#MarineObservationsDataConsumers)
 
+## Show me how my town has grown over the last 10 years
+The user wants a series of landsat images so that they can make a video of a town growing larger over time.
+
+The query is a rectangle, a resolution, and a time interval. The response should be a sequence of images made from resampling the data in that spatiotemporal region.
+
+(see https://www.w3.org/TR/sdw-ucr/#LandsatDataServices)
+
+## Mining for gold
+The user is looking for promising areas to mine for gold. The user wants to see a heatmap overlaid onto some region of interest, indicating the ppm of gold in nearby soil samples taken by Geosciences Australia.
+
+(see https://www.w3.org/TR/sdw-ucr/#MetadataAndSearchGranularity)
 
