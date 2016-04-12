@@ -8,7 +8,9 @@ They then submit a query consisting of:
 - Time
 - Identifier for the type of data they want
 - Resolution
+
 The result is all the data of that type from that time and inside that polygon, resampled to the desired resolution
+
 The result can be in one of these formats:
 - netCDF
 - geoTIFF
@@ -22,7 +24,9 @@ They submit a query consisting of:
 - Range of times
 - Identifier for the type of data
 - Resolution
+
 The result is all the data of that type from that range of times and inside that polygon, resampled to the desired resolution
+
 The result can be in one of these formats:
 - netCDF
 - geoTIFF
@@ -58,6 +62,7 @@ The user wants to know where it is raining along the roads they will be travelli
 The query to the server is:
 - A trajectory through space
 - A time ("right now")
+
 The response is:
 - All the datapoints for "right now" that lie on the trajectory
 
