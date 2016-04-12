@@ -93,3 +93,12 @@ The user is looking for promising areas to mine for gold. The user wants to see 
 
 (see https://www.w3.org/TR/sdw-ucr/#MetadataAndSearchGranularity)
 
+## Rainfall and vegetation coverage for a paddock
+
+This is the use case we talked about at GA. The basic aim is for the user to be able to specify a particular point and to see a graph of proportion vegetation coverage (for instance) for a small region around that point at all available times. Linked data can assist this use case by enabling the client app to pull data from different sources which have different resolutions, different mechanisms for marking good pixels, different time schedules for sampling, etc. The DGGS can help by making it easy to query datasets sampled at different resolutions or different points. Pulling data from Landsat and MODIS would be a good start. Possible extensions include:
+
+* Aggregating statistics (mean vegetation cover, variance of vegetation cover) over an arbitrary polygon.
+* Aligning another type of coverage (e.g. gridded rainfall coverage) with different timing and a different resolution.
+* Incorporating predictions as well as existing coverages. For instance, the gridded rainfall coverage could be augmented with projected rainfall for the next `n` years.
+
+(see https://www.anutechlauncher.net/attachments/download/106/ANU%20TechLauncher.pptx)
